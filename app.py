@@ -21,5 +21,5 @@ def gen_quote_fn():
     random_quote_cursor = c.execute("select character, quote from quotes ORDER BY RANDOM() limit 1;")
     character, quote = random_quote_cursor.fetchall()[0]
     logging.debug(character)
-    return render_template("quote.html", my_character = character, my_quote = quote)
     conn.close()
+    return render_template("quote.html", my_character = character, my_quote = quote)
