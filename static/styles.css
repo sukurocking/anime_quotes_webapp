@@ -1,0 +1,32 @@
+    div {
+        display: grid; place-items: center; height: 35vh;
+    }
+    button {
+        width: 200px;
+        height: 50px;
+    }
+    body {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+    }
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 75vh;
+    }        
+    body > h2 {
+        display: block; 
+        align-items: center;
+    }
+    body > div > blockquote {
+        display: inline-flex;
+        font-size: 24px; 
+        font-style: italic; 
+        text-align: center; 
+        border-left: 4px solid #ccc; 
+        padding-left: 20px;
+    }
+    
