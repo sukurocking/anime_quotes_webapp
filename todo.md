@@ -15,3 +15,4 @@
 - [x] Once the button is clicked, The POST method will display the random quote on the redirected page
 - [ ] Add page for adding quote from frontend
 - [ ] Allow functionality for searching quotes by character
+

@@ -1,0 +1,19 @@
+{% extends "layout.html" %}
+
+{% block content %}
+    <table xmlns="http://www.w3.org/1999/html" class="table">
+        <thead>
+            <tr>
+                <td>Character</td>
+                <td>Quote</td>
+            </tr>
+        </thead>
+        {% for (character, quote) in quotes_list %}
+            <tr>
+                <td>{{ character }}</td>
+                <td>{{ quote }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+
+{%endblock%}

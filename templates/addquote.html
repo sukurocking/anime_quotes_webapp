@@ -1,0 +1,12 @@
+{% extends "layout.html" %}
+
+{% block content %}
+<div>
+    <form id="add_quote_form" action="/quote_add_response" method="post">
+        <input name="character" placeholder="Luffy" title="character"></input>
+        <input id="quote_box" name="quote" placeholder="I'm going to be the Pirate King!" title="quote" size="30"></input>
+        <input type="submit" value="Add"></input>
+    </form>
+</div>
+
+{%endblock%}
