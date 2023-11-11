@@ -1,11 +1,11 @@
 {% extends "layout.html" %}
 
 {% block content %}
-    <table xmlns="http://www.w3.org/1999/html" class="table">
+    <table>
         <thead>
             <tr>
-                <td>Character</td>
-                <td>Quote</td>
+                <th>Character</th>
+                <th>Quote</th>
             </tr>
         </thead>
         {% for (character, quote) in quotes_list %}

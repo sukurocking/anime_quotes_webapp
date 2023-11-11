@@ -1,5 +1,8 @@
 div {
-    display: grid; place-items: center; height: 35vh;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 #generate_button {
     width: 200px;
@@ -17,10 +20,13 @@ body {
     justify-content: center;
     height: 75vh;
 }
-/* #addquote {
-    display:inline-flex;
-    height: 100vh;
-}       */
+#welcome_heading {
+    margin-bottom: 80px;
+}
+a {
+    display: block;
+    text-align: center;
+}  
 body > h2 {
     display: block; 
     align-items: center;
@@ -34,5 +40,5 @@ body > div > blockquote {
     padding-left: 20px;
 }
 table, th, td {
-            border: 1px solid black;
-         }
+    border: 1px solid black;
+}

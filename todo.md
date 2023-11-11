@@ -13,6 +13,6 @@
 - [x] Create a Flask route for index page, Add a button to the index page, mentioning "Generate an Anime Quote!"
 - [x] Create a Flask route for the random quote function, which is triggered on POST method (upon clicking on the button in the page)
 - [x] Once the button is clicked, The POST method will display the random quote on the redirected page
-- [ ] Add page for adding quote from frontend
+- [x] Add page for adding quote from frontend
 - [ ] Allow functionality for searching quotes by character
 
