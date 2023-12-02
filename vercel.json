@@ -1,0 +1,17 @@
+{
+    "version": 2,
+    "builds": [
+      {
+        "src": "*.py",
+        "use": "@vercel/python"
+      }
+    ],
+    "routes": [
+      { "src": "/", "dest": "/index.py" },
+      { "src": "/quote", "dest": "/quote.py" },
+      { "src": "/addquote", "dest": "/addquote.py" },
+      { "src": "/quote_add_response", "dest": "/quote_add_response.py" },
+      { "src": "/all_quotes", "dest": "/all_quotes.py" }
+    ]
+  }
+  
